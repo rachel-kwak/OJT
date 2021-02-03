@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <header>header</header>
+  <main>
+    <nav>nav</nav>
+    <section>section</section>
+  </main>
+  <footer>footer</footer>
+</body>
+</html>
+
+<style>
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* 세로로 플렉스 */
+  flex: none;
+}
+
+header {
+  background: red;
+  height: 80px;
+}
+
+main {
+  background: green;
+  display: flex;
+  flex: 1; /* 세로 전체를 다 차지하도록 */
+}
+
+nav {
+  background: orange;
+  width: 100px;
+}
+
+section {
+  background: skyblue;
+  width: 100%;
+}
+
+footer {
+  background: yellow;
+  height: 50px;
+}
+</style>
