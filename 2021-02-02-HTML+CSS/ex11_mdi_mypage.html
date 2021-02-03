@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+   />
+</head>
+<body>
+<nav class="mypage-lnb">
+  <h1 class="mypage-lnb-title">마이페이지</h1>
+  <ul>
+    <li>
+      <div class="mypage-icon-wrap">
+        <i class="material-icons">store</i>
+      </div>
+      <div>
+        <div class="mypage-label">포인트</div>
+        <div class="mypage-value">2,544</div>
+      </div>
+    </li>
+    <li>
+      <div class="mypage-icon-wrap">
+        <i class="material-icons">inventory_2</i>
+      </div>
+      <div>
+        <div class="mypage-label">나의 예매권</div>
+        <div class="mypage-value">3</div>
+      </div>
+    </li>
+    <li>
+      <div class="mypage-icon-wrap">
+        <i class="material-icons">image_aspect_ratio</i>
+      </div>
+      <div>
+        <div class="mypage-label">나의 쿠폰</div>
+        <div class="mypage-value">0</div>
+      </div>
+    </li>
+    <li>
+      <div class="mypage-icon-wrap">
+        <i class="material-icons">support_agent</i>
+      </div>
+      <div>
+        <div class="mypage-label">나의 회원정보</div>
+        <div class="mypage-value">수정</div>
+      </div>
+    </li>
+  </ul>
+  </nav>
+</body>
+</html>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.mypage-lnb {
+  height: 135px;
+  display: flex;
+}
+
+.mypage-lnb-title {
+  height: 100%;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 500;
+  background-color: #015aff;
+  color: #fff;
+  margin: 0;
+}
+
+.mypage-lnb ul {
+  flex: 1;
+  list-style: none;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  border: 1px solid #015aff;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.mypage-lnb li {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  border-left: 1px solid #eee;
+}
+
+.mypage-lnb li:first-child {
+  border-left: 0;
+}
+
+.mypage-icon-wrap {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.material-icons {
+  font-size: 30px;
+  color: #555;
+}
+
+.mypage-label {
+    font-size: 16px;
+    color: #555;
+    height: 20px;
+}
+
+.mypage-value {
+    font-size: 18px;
+    color: #015aff;
+}
+</style>
