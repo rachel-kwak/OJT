@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>실습2</title>
+    </head>
+    <body>
+        <header>
+          <a class="logo" href="">
+            <img src="https://nhn.com/renewal/img/logo.png" />
+          </a>
+          <nav class="main-nav">
+            <ul>
+              <li>
+                <a href="">콘서트</a>
+              </li>
+              <li>
+                <a href="">뮤지컬</a>
+              </li>
+              <li>
+                <a href="">연극</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="search-area"><input type="text"/></div>
+          <nav class="user-nav">
+            <ul>
+              <li><a href="">로그인</a></li>
+              <li><a href="">마이페이지</a></li>
+              <li><a href="">고객센터</a></li>
+            </ul>
+          </nav>
+        </header>
+    </body>
+</html>
+
+</body>
+</html>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: skyblue;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 0px 20px;
+  align-items: center;
+}
+
+.logo img {
+  width: 120px;
+  margin-right: 20px;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  margin: 0 10px 0 0;
+}
+
+.search-area {
+  flex: 1;
+}
+
+[type="text"] {
+  border: 1px solid #015aff;
+  width: 200px;
+  height: 28px;
+  padding: 0 10px;
+}
+
+.user-nav ul {
+  list-style: none;
+  margin: 10px;
+  display: flex;
+}
+
+.user-nav ul li:before {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background-color: #ccc;
+}
+
+.user-nav ul li:nth-child(1):before {
+  display: none;
+}
+
+.user-nav ul li a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+</style>
