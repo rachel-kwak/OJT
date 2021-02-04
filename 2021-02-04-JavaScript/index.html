@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- 1. -->
+  <!-- <script>
+    alert('hello world');
+    </script> -->
+  <!-- 위 방법으로 js를 쓰면 전역으로 선언됨.
+    아래처럼 include 하는 방식으로 사용해야 한다. -->
+
+  <body>
+    <h1>TodoList</h1>
+
+    <!-- 2. -->
+    <!-- <div id="myContents">
+        <a href="#">링크1</a>
+        <a href="#">링크2</a>
+    </div> -->
+
+    <!-- 3. -->
+    <input id="my-input" />
+    <button id="my-btn">ADD</button>
+
+    <br /><br />
+
+    <!-- 8. & 10. -->
+    <div id="counter">
+      <button id="total-todo">전체 : 0</button>
+      <button id="active-todo">완료 : 0</button>
+      <button id="done-todo">미완료 : 0</button>
+    </div>
+
+    <!-- 4. -->
+    <ul id="todo-list"></ul>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
