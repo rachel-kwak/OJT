@@ -1,0 +1,13 @@
+/* 7. */
+.complete {
+  color: gray;
+  text-decoration: line-through;
+}
+
+/* 10. */
+.hide-incomplete li:not(.complete) {
+  display: none;
+}
+.hide-complete li.complete {
+  display: none;
+}
